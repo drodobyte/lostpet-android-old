@@ -4,8 +4,6 @@ Simple sample app for posting lost pets showcasing [Clean Architecture](https://
 The _business_ layer is defined in the [domain](https://github.com/drodobyte/lostpet-android/tree/master/domain) module, 
 the _details_ and _adapter_ layers are defined in the [details](https://github.com/drodobyte/lostpet-android/tree/master/details) one.
 
-is Here we define the details/framework specific layer in a , 
-[This branch](https://github.com/drodobyte/lostpet-android/tree/mvp) features a MVP approach, [and this](https://github.com/drodobyte/lostpet-android/tree/mvi) a MVI one.
 ### Packages
 * **Domain**
   * **Case**, it contains the use cases (e.g: _listing pets_)
